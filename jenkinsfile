@@ -1,0 +1,8 @@
+pipline{
+agent any 
+stages{
+stages('greetings'){
+steps{
+echo "hello from jenkins"
+}
+}
