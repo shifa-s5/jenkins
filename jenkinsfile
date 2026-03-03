@@ -1,8 +1,10 @@
-pipline{
-agent any 
-stages{
-stages('greetings'){
-steps{
-echo "hello from jenkins"
-}
+pipline {
+    agent any 
+    stages {
+        stage('greetings'){
+            steps{
+                echo "hello from jenkins"
+            }
+        }
+    }
 }
